@@ -38,11 +38,20 @@
       display: flex;
       align-items: center;
       gap: .4em;
+      cursor: pointer;
     }
     summary img {
       width: 40px;
       background: #111;
+      border: 1px solid transparent;
       border-radius: .2em;
+    }
+    summary:hover {
+      background: #111;
+      color: white;
+    }    
+    summary:hover img {
+      border-color: white;
     }
   </style>
 
