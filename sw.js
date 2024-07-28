@@ -3,7 +3,7 @@ const cacheName = 'v1';
 const registerServiceWorker = async () => {
   if ("serviceWorker" in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register("/sw.js", {
+      const registration = await navigator.serviceWorker.register("./sw.js", {
         scope: "/helix-effects/",
       });
       if (registration.installing) {
