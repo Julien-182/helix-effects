@@ -1,0 +1,16 @@
+{
+  "name": "Helix models",
+  "short_name": "Helix models",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#111",
+  "description": "List of all Helix models with specification",
+  "icons": [
+    {
+      "src": "icons/helix.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
