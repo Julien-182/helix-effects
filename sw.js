@@ -27,10 +27,10 @@ const addResourcesToCache = async (resources) => {
 self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
-      "/",
-      "/index.html",
-      "/manifest.webmanifest",
-      "/icons/helix.png"
+      "./",
+      "./index.html",
+      "./manifest.webmanifest",
+      "./icons/helix.png"
     ]),
   );
 });
