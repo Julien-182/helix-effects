@@ -1,7 +1,8 @@
 {
   "name": "Helix models",
   "short_name": "Helix models",
-  "start_url": ".",
+  "start_url": "/helix-effects/",
+  "scope": "/helix-effects/",
   "display": "standalone",
   "background_color": "#111",
   "description": "List of all Helix models with specification",
